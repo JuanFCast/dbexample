@@ -1,7 +1,7 @@
 import db from "../repository/database";
 
-async function register(name){
-    const {err} = db.query("INSERT INTO ANIMAL (nombre_animal) VALUES ($1)", [name])
+async function register(name, username, email, password_user, role){
+    const {err} = db.query("INSERT INTO USERS (name, username, email, password_user, role) VALUES ($1,$2,$3,$4,$5)", [name, username, email, password_user, role])
     console.log(err)
 }
 
