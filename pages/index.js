@@ -4,7 +4,7 @@ import styles from '../styles/Home.module.css'
 
 export default function Home() {
   return (
-    <form action="http://localhost:3000/api/DB_Controller" method="POST">
+    <form action="http://localhost:3000/api/DB_Users" method="POST">
       <input type="text" placeholder='Nombre' name="name"/>
       <input type="text" placeholder='Nombre de usuario' name="username"/>
       <input type="text" placeholder='email' name="email"/>

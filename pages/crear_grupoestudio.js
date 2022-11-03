@@ -11,7 +11,7 @@ export default function Home() {
       <meta name="viewport" content="width=device-width, initial-scale=1" />
       <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" />
       <link href="https://getbootstrap.com/docs/5.2/assets/css/docs.css" rel="stylesheet" />
-      <title>Bootstrap Example</title>
+      <title>Crear grupo</title>
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
 
       <div class="mb-3">
@@ -20,8 +20,8 @@ export default function Home() {
 
 
       <div class="mb-3">
-        <label for="exampleInputEmail1" class="form-label">Nombre del grupo</label>
-        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" />
+        <label for="Input-groupName" class="form-label">Nombre del grupo</label>
+        <input type="groupName" class="form-control" id="Input-groupName"/>
       </div>
 
       <div className="mb-3">
